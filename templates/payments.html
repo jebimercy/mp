@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M-Pesa</title>
+</head>
+<body>
+<form action="" method="POST">
+    {% csrf_token %}
+    <input type="text" name="amount" placeholder="Enter amount"><br>
+    <input type="text" name="phone" placeholder="Enter phone"><br>
+
+    <input type="submit" value="pay">
+
+
+
+</form>
+
+</body>
+</html>
